@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Documento JS</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var cantidadStock = prompt("ingrese la cantidad de productos:");
+		if (cantidadStock <= 5){
+
+			alert("Debes conseguir mas producto");
+			cantidadStock = parseint(cantidadStock)+10;
+			
+		if (cantidadStock > 5) {
+
+			alert("Estas bien con el stock");
+		}
+
+		Document.write("El stock actual es:" + cantidadStock);
+	</script>
+
+</body>
+</html>
