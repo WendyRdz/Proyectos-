@@ -1,0 +1,40 @@
+body {
+    font-family: 'Neucha', cursive;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /** images will wrap onto another line if necessary, from top to bottom **/
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+._img_top_right {
+    background-image: url("https://i.pinimg.com/originals/c1/14/ad/c114ad1ad6c8cf09430db2fea5ff55e1.jpg");
+    display: inline-block;
+    height: 500px;
+}
+
+._img_top_left {
+    background-image: url("http://assets2.mi-web.org/entradas/0006/6596/hermoso_y_verde-800x600.jpg?1329650201");
+    display: inline-block;
+    height: 500px;
+}
+
+._img_bot_right {
+    background-image: url("https://medioambienteynaturaleza.com/wp-content/uploads/2015/08/Fondos-de-pantalla-de-naturaleza-bg.jpg");
+    display: inline-block;
+    height: 500px;
+}
+
+._img_bot_left {
+    background-image: url("https://ugc.kn3.net/i/760x/http://3.bp.blogspot.com/-NPU26oQlBIo/Ty6VMF0NT3I/AAAAAAAAG0M/SdtNRFFbTXA/s1600/naturaleza+%28203%29.jpg");
+    display: inline-block;
+    height: 500px;
+}
